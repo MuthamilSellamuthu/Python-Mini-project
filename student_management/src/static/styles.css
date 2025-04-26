@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background & layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://observenowevents.in/elca/dubai/img/gallery/point4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    backdrop-filter: brightness(0.8); /* Darken the background for text visibility */
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation styling */
+nav {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #4299e1;
+    color: white;
+    transform: translateY(-2px);
+}

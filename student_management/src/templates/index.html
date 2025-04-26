@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Student Management System</title>
+</head>
+<body>
+    <h1>Welcome to the Student Management System</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('add_student') }}">Add Student</a></li>
+            <li><a href="{{ url_for('view_students') }}">View Students</a></li>
+            <li><a href="{{ url_for('add_course') }}">Add Course</a></li>
+            <li><a href="{{ url_for('enroll_student') }}">Enroll Student</a></li>
+            <li><a href="{{ url_for('mark_attendance') }}">Mark Attendance</a></li>
+            <li><a href="{{ url_for('record_performance') }}">Record Performance</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

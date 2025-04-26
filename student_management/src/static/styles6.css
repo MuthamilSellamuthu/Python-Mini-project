@@ -1,0 +1,71 @@
+/* Background with image */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1517677208157-c658f34f92da') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: brightness(0.9);
+}
+
+/* Heading */
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Table header */
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Table row hover effect */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Back to Home link */
+a {
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+    text-decoration: underline;
+}
